@@ -1,0 +1,617 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. Banner Section
+    5. Intro Section
+    6. Features Section
+    7. Creativity Section
+    8. Connect Section
+    9. Testimonial Section
+    10. Team Section
+    11. Location Section
+    11. Footer Section
+========================== */
+
+
+    /*1.0 Global CSS*/
+
+    body{
+        background-color: #fff;
+    }
+
+
+    /*3.0 Header Section Start*/
+
+    header{
+        padding: 10px 0px;
+        border-bottom: 1px solid #e4e6ea;
+    }
+
+    .nav-link{
+        padding: 5px 10px;  
+        color: #5d6981;
+    }
+
+    .nav-link:focus, .nav-link:hover{
+        border-radius: 20px;
+        border: 1px solid #9fabba;
+        color: #adb7c4;
+    }
+
+    .nav-link.active{
+        border-radius: 20px;
+        border: 1px solid;
+    }
+
+    .fa-facebook{
+        color: #3c5a99;
+    }
+    
+    .fa-twitter{
+        color: #28aae1;
+    }
+    /*3.0 Header Section End*/
+
+    /*4.0 Banner Section Start*/
+
+    .jumbotron{
+        background-color: transparent;
+        text-align: center;
+        color: #0149a1;
+        margin-bottom: 0px;
+    }
+
+    .jumbotron p{
+        color: #5d6981;
+        margin-bottom: 60px;
+    }
+
+    .price{
+        background-color: #ff2d55;
+        color: #fff;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    /*4.0 Banner Section End*/
+
+
+    /*5.0 Intro Section Start*/
+
+    .intro{
+        background: url(../img/background-mac.png) no-repeat;
+        background-color: #e2e4e8;
+        padding: 60px 0px; 
+    }
+
+    .img-res{
+        max-width: 90%;
+        position: relative;
+        right: -58px;
+    }
+
+    .play{
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 5px 20px;
+        position: relative;
+        right: 44%;
+        color: #0149a1;
+    }
+    /*5.0 Intro Section End*/
+
+    /*6.0 Feature Section Start*/
+    .feature{
+        padding: 60px 0px;
+    }
+
+    .feature a{
+        text-align: center;
+        text-decoration: none;
+        color: #5d6981;
+    }
+
+    .feature a img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .chat-res{
+        width: 115px;
+    }
+    
+    .desktop-res{
+        width: 110px;
+    }
+
+    .feature h4{
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    /*6.0 Feature Section End*/
+
+    /*7.0 Creativity Section Start*/
+    .creativity{
+        background: url(../img/creativity.png) no-repeat;
+        background-size: cover;
+    }
+
+    .creativity .col-lg-12{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 500px;
+    }
+
+    .creativity .btn-default{
+        position: absolute;
+        bottom: 45%;
+        left: 45%;
+        border-radius: 25px;
+        background-color: #0149a1;
+        color: #fff;
+        padding: 5px 25px;
+        font-size: 16px;
+    }
+    /*7.0 Creativity Section End*/
+
+    /*8.0 Connect Section Start*/
+
+    .connect{
+        background-color: #0149a1;
+    }
+
+    .connect h1{
+        text-align: center;
+        margin-top: 60px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .connect h4{
+        text-align: center;
+        color: #4a7cb8;
+        font-weight: 300;
+        margin-bottom: 60px;
+    }
+
+    .connect p{
+        color: #fff;
+    }
+
+    .connect .btn-default{
+        display: block;
+        margin: 60px auto;
+        border-radius: 25px;
+        padding: 10px 30px;
+        font-size: 16px;
+        color: #0149a1;
+    }
+    /*8.0 Connect Section End*/
+
+    /*9.0 Testimonial Section Start*/
+
+    .carousel-indicators li{
+        width: 10px;
+        border-radius: 50%;
+        border: 1px solid #7c8ca0;
+        height: 10px;
+    }
+
+    .carousel-indicators li:hover{
+        background-color: #7c8ca0;
+    }
+
+    .carousel-indicators li.focus{
+        background-color: #7c8ca0;
+    }
+
+    .carousel-indicators li.active{
+        background-color: #7c8ca0;
+    }
+
+    .carousel-inner .w-100{
+        width: 10% !important;
+    }
+
+    .carousel-inner img{
+        position: relative;
+        right: -500px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-inner p{
+        text-align: center;
+        margin-bottom: 20px;
+        color: #b2b5b9;
+    }
+
+    .carousel-control-prev-icon{
+        color: #000;
+        border: 1px solid #7c8ca0;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: #7c8ca0;
+    }
+    .carousel-control-next-icon{
+        color: #000;
+        border: 1px solid #7c8ca0;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: #7c8ca0;
+    }
+    /*9.0 Testimonial Section End*/
+
+    /*10.0 Team Section Start*/
+
+    .team{
+        padding: 60px 0px;
+        background-color: #edeff1;
+    }
+
+    .team a{
+        text-align: center;
+        text-decoration: none;
+        color: #5d6981;
+    }
+
+    .team a img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .team h1{
+        text-align: center;
+        margin-top: 60px;
+        font-weight: 600;
+        color: #0149a1;
+    }
+
+    .team .col-lg-12 h4{
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 60px;
+        color: #8d9bad;
+    }
+
+    .team .col-lg-3 h4{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 60px;
+        color: #5e6a82;
+    }
+
+    .team p{
+        color: #5e6a82;
+    }
+
+    .team .btn-default{
+        display: block;
+        margin: 60px auto;
+        border-radius: 25px;
+        padding: 10px 30px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #ff2d55;
+    }
+
+    /*10.0 Team Section End*/
+
+    /*11.0 Location Section Start*/
+    .location{
+        background: url(../img/map.png) no-repeat;
+        background-size: cover;
+    }
+
+    .location .col-lg-12{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 500px;
+    }
+
+    .location img{
+        position: absolute;
+        bottom: 47%;
+        left: 55%;
+    }
+    /*11.0 Location Section End*/
+
+    /*12.0 Footer Section Start*/
+    footer{
+        background-color: #0149a1;
+    }
+
+    footer .col-lg-3{
+        margin: 60px auto;
+        text-align: center;
+
+    }
+
+    footer .col-lg-3 a{
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    footer .col-lg-12 p{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 60px;
+    }
+    /*12.0 Footer Section End*/
+
+
+/*Media Query For Mobile Device 0-500px*/
+@media screen and (max-width:500px){
+    header .col-lg{
+        text-align: center;
+    }
+    
+    .nav{
+        display: flow-root;
+        margin-top: 20px;
+    }
+    
+    .jumbotron p{
+        margin-bottom: 20px;
+    }
+    
+    .intro{
+        padding: 0px;
+        background-size: cover;
+    }
+    
+    .price{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    .img-res{
+        max-width: 100%;
+        right: 0px;
+        bottom: -15px;
+    }
+    
+    .play{
+        padding: 3px 10px;
+        left: 38%;
+        bottom: 45%;
+    }
+    
+    .feature a img{
+        width: 65px;
+    }
+    
+    .chat-res{
+        width: 65px;
+    }
+    
+    .desktop-res{
+        width: 65px;
+    }
+    
+    .creativity .col-lg-12{
+        height: 100px;
+    }
+    
+    .creativity .btn-default{
+        bottom: 35%;
+        left: 35%;
+        padding: 3px 20px;
+        font-size: 12px;
+    }
+    
+    .connect .col-lg img{
+        width: 100%;
+    }    
+    .connect .col-lg p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .connect .btn-default{
+        margin: 20px auto;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    .carousel-control-prev-icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .carousel-control-next-icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .carousel-inner p{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    
+    .carousel-inner .w-100 {
+        width: 30% !important;
+    }
+    
+    .carousel-inner img{
+        margin-bottom: 80px;
+        left: 35%;
+    }
+    
+    .team h1{
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .team .col-lg h4{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .team a img {
+        width: 30%;
+    }
+    
+    .team .col-lg-3 h4{
+        margin-top: 20px;
+    }
+    
+    .team .btn-default{
+        margin: 20px auto;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    .location .col-lg-12{
+        height: 100px;
+    }
+    
+    .location img{
+        bottom: 46%;
+        left: 47%;
+        width: 5%;
+    }
+    
+    footer .col-lg-3 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    footer .col-lg-12 p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+
+/*Media Query For Tablet Device 500-768px*/
+@media (min-width:500px) and (max-width:768px){
+    header .col-lg{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    
+    .nav{
+        position: relative;
+        left: 15%;
+    }
+    
+    .intro{
+        padding: 30px 0px;
+        background-size: contain;
+    }
+    
+    .img-res{
+        right: -30px;
+    }
+    
+    .play{
+        left: 40%;
+        bottom: 50%;
+    }
+    
+    .creativity .col-lg-12{
+        height: 250px;
+    }
+    
+    .creativity .btn-default{
+        bottom: 40%;
+        left: 42%;
+    }
+    
+
+    .connect .col-lg img{
+        width: 100%;
+    }  
+    
+    .connect .col-lg p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .carousel-inner img {
+        left: 46%;
+    }
+    
+    .team h1 {
+        margin-top: 20px;
+    }
+    
+    .team .btn-default {
+        margin: 20px auto;
+    }
+    
+    .location .col-lg-12 {
+        height: 250px;
+    }
+    
+    .location img {
+        bottom: 48%;
+        left: 52%;
+    }
+    
+    footer .col-lg-3 {
+        text-align: center;
+        margin: 20px auto;
+        margin-bottom: 20px;
+    }
+}
+
+/*Media Query For Tablet Device 768-1024px*/
+@media (min-width:768px) and (max-width:1200px){
+    header .menu{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    header .col-lg{
+        text-align: center;
+    }
+    
+    .intro{
+        background-size: contain;
+    }
+    
+    .play{
+        left: 46%;
+        bottom: 50%;
+    }
+    
+    .carousel-inner img{
+        left: 45%;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-size: 50% 100%;
+    }
+    
+    .team h1 {
+        margin-top: 30px;
+    }
+    
+    .team .btn-default {
+        margin: 30px auto;
+    }
+    
+    .location{
+        height: 350px;
+    }
+    
+    .location img{
+        width: 3%;
+        bottom: 63%;
+        left: 56%;
+    }
+    
+    footer .col-lg-3 {
+        margin: 30px auto;
+        text-align: center;
+    }
+}
