@@ -364,7 +364,7 @@
     
     .intro{
         padding: 0px;
-        background-size: cover;
+        background-size: contain;
     }
     
     .price{
